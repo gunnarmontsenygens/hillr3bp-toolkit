@@ -64,6 +64,7 @@ function params = params_JE_hillr3bp()
     % Functions
     %-------------------------------
     params.fun.eom = @eom_hillr3bp;
+    params.fun.integrate = @integrate_hillr3bp;
 
     %-------------------------------
     % Scaling
